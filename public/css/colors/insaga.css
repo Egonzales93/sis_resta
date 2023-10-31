@@ -1,0 +1,253 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Preloader*/
+
+:root {
+  --insaga-default: #e20000;
+  --insaga-gris:  #2d2d2d;
+  --insaga-blanco: #ffffff;
+  /* alternativa */
+  --insaga-default-alt: #c10505;
+  --insaga-gris-alt: #474545;
+  --insaga-gris-text:#7a7a7a;
+  --insaga-blanco-alt: #e7e7e7;
+}
+
+
+
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+
+/*******************
+/*Top bar
+*******************/
+.topbar {
+  background: var(--insaga-blanco);
+  border-bottom: none;
+}
+
+.topbar .navbar-header {
+  background: #474545;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+  color: var(--insaga-gris-text) !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover, .topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
+  color:var(--insaga-gris-alt) !important;
+}
+.topbar .top-navbar {
+  max-height: 68px;
+  padding: 0px 0px 0 0;
+}
+.navbar-collapse {
+  /* box-shadow: 0px 10px 7px -8px #a9a9a9;
+  width: 100%; */
+  border-bottom: 1px solid #ddd;
+}
+
+/*******************
+/*General Elements
+*******************/
+a.link:hover, a.link:focus {
+  color: var(--insaga-default) !important;
+}
+
+.bg-theme {
+  background-color: var(--insaga-default) !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #666 !important;
+  border-color: #666 !important;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.right-sidebar .rpanel-title {
+  background: var(--insaga-default);
+}
+
+.stylish-table tbody tr:hover, .stylish-table tbody tr.active {
+  border-left: 4px solid var(--insaga-default);
+}
+
+.text-themecolor {
+  color: var(--insaga-default) !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid var(--insaga-default);
+  color: var(--insaga-default);
+  font-weight: 400;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: var(--insaga-default);
+}
+
+/*******************
+/*Buttons
+*******************/
+.btn-themecolor,
+.btn-themecolor.disabled {
+  background: var(--insaga-default);
+  color: #ffffff;
+  border: 1px solid var(--insaga-default);
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+  background: var(--insaga-default);
+  opacity: 0.7;
+  border: 1px solid var(--insaga-default);
+}
+
+.btn-themecolor.active, .btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+  background: var(--insaga-default);
+}
+
+/*******************
+/*sidebar navigation
+*******************/
+
+.user-profile .profile-img {
+  width: 50px;
+  padding: 15px 0;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.user-profile .profile-img::before {
+  -webkit-animation: 2.5s blow 0s linear infinite;
+  animation: 2.5s blow 0s linear infinite;
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  margin: 0 auto;
+  border-radius: 50%;
+  z-index: 0;
+}
+.user-profile .profile-text > a {
+  color: #ffffff !important;
+  width: 100%;
+  padding: 6px 30px;
+  background: none;
+  display: block;
+}
+.user-profile .profile-text > a:after {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.left-sidebar, .sidebar-nav {
+  background: #474545;
+}
+
+.sidebar-nav ul li a {
+  color: #e7e7e7;
+}
+.sidebar-nav ul li a svg {
+    /* color: #ffffff; */
+    width: 24px;
+    margin-right: 4px;
+    margin-top: -3px;
+    margin-left: -2px;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+  color: var(--insaga-default);
+  background: var(--insaga-blanco);
+}
+
+.sidebar-nav ul li a.active {
+  color: var(--insaga-default);
+}
+
+.sidebar-nav ul li.nav-small-cap {
+  color: #99abb4;
+}
+
+.sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
+  color: #ffffff !important;
+  background: var(--insaga-default) !important;
+}
+
+.sidebar-nav > ul > li.active > a i, .sidebar-nav > ul > li.active:hover > a i {
+  color: #ffffff !important;
+}
+
+.sidebar-nav > ul > li.active > a:after, .sidebar-nav > ul > li.active:hover > a:after {
+  border-color: #ffffff;
+}
+
+.sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
+  color: var(--insaga-default);
+}
+
+.sidebar-nav > ul > li > a i {
+  color: #e7e7e7;
+}
+
+.sidebar-nav > ul > li > a.active {
+  font-weight: 400;
+  background: #ffffff;
+  color: var(--insaga-default);
+}
+
+.row.page-titles {
+  background: none;
+  box-shadow: none;
+  padding-bottom: 20px;
+  margin: 0px;
+}

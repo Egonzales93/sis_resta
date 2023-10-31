@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ar:ApplicationResponse xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope" xmlns:ar="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension><ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>hAqM9nPyPhGbU/Xddj9XqolWP6FofqebIu/33+K9T9E=</DigestValue></Reference></SignedInfo><SignatureValue>kZEyymSP+E2QckGftI1ZQoW8E9NpgDLhIWvUyB5uXxFzyqBTC88GoTit4/W6puCMA+Y+8i3APn7L03d3m6mB9+vftmPLt8mHc29qBuuibqBMYtGbOE1SQhICVJiSlKF/NucBXaFMZ6COg7HIuEfOmcss0YkpsA53aoI/Mj/Mo1N8eHs/Br2mDTDqOIZ8JBXo/gilJFa6cu/7dMer/XIdFWt7MZRbM1nPyj/WJu82Bzfot9lcUcoSAaZ7/Kr7aRKSVdx6nfCmp4iK2CNmQUF4nxHXE3YNVL/6WNCrhPuzYT62k6zdVga0dq3kh9GrbSjLEL5PBDca6vYKyWV0xP9Vjg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=AC CAMERFIRMA PERÚ CERTIFICADOS - 2016, O=CAMERFIRMA PERÚ S.A.C., OID.2.5.4.97=NTRPE-20566302447, SERIALNUMBER=20566302447, OU=AC CAMERFIRMA PERÚ CERTIFICADOS - 2016, OU=see current address at www.camerfirma.com.pe/address, L=LIMA, S=LIMA, C=PE</X509SubjectName><X509Certificate>MIIIlTCCBn2gAwIBAgIJTSQkZX6VFEvxMA0GCSqGSIb3DQEBCwUAMIIBIjELMAkGA1UEBhMCUEUxDTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExPTA7BgNVBAsMNHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LmNhbWVyZmlybWEuY29tLnBlL2FkZHJlc3MxMDAuBgNVBAsMJ0FDIENBTUVSRklSTUEgUEVSw5ogQ0VSVElGSUNBRE9TIC0gMjAxNjEUMBIGA1UEBRMLMjA1NjYzMDI0NDcxGjAYBgNVBGEMEU5UUlBFLTIwNTY2MzAyNDQ3MSAwHgYDVQQKDBdDQU1FUkZJUk1BIFBFUsOaIFMuQS5DLjEwMC4GA1UEAwwnQUMgQ0FNRVJGSVJNQSBQRVLDmiBDRVJUSUZJQ0FET1MgLSAyMDE2MB4XDTIyMDkxMzEzMTA0M1oXDTI0MDkxMjEzMTA0M1owgfkxIzAhBgkqhkiG9w0BCQEWFG1kaWF6c2FAc3VuYXQuZ29iLnBlMUEwPwYDVQQDDDhTVVBFUklOVC4gTkFDLiBERSBBRFVBTkFTIFkgREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTENMAsGA1UEBwwETElNQTEUMBIGA1UECAwLTElNQSAtIExJTUExFDASBgNVBAsMCzIwMTMxMzEyOTU1MTcwNQYDVQQLDC5Jc3N1ZWQgYnkgQ0FNRVJGSVJNQSBQRVLDmiAyMDE2ICBBQyBDQU1FUkZJUk1BMQ4wDAYDVQQKDAVTVU5BVDELMAkGA1UEBhMCUEUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3s//LbU1CWSNSGedES2BROJLgF9SOipNNdAb/1HIxvzu7pfUD5XQDKpcRwZ2i/1vIB8vVoVTS+t4jCogo21ok2Yx9wrnCEZjIvj8rUnYSfB2oqp4Bt1Oi80ewVGsPJiS7QxnMnwN/wzrYC6FNi9q/TyFqpsp0shVA5gKhOSUzfZrRZ1LcOZw1rmLc3cR6Ar6uTO0iD6EIDf/5FiXhwUZPfEVamU2XKigSKC5NeR3/7x0+29YUS68g8s68jAwZZ/Qmtqo8/QqNst3Kar2M6A6sd/p3vGuYRXddpVPVRVXORNIM6DX9sKwfsULfqmHYlUxuYnyxkqKNfpQY/k2OR+DbAgMBAAGjggLyMIIC7jAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIGwDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFEDigdbnWKLpN8Pjf7XmfTdotkA5MIGNBggrBgEFBQcBAQSBgDB+MFQGCCsGAQUFBzAChkhodHRwOi8vd3d3LmNhbWVyZmlybWEuY29tL2NlcnRzL2FjX2NhbWVyZmlybWFfcGVydV9jZXJ0aWZpY2Fkb3MtMjAxNi5jcnQwJgYIKwYBBQUHMAGGGmh0dHA6Ly9vY3NwLmNhbWVyZmlybWEuY29tMB8GA1UdIwQYMBaAFDpuZRjnVtLk8y3dpXxybf8w4YYnMIGgBgNVHR8EgZgwgZUwSKBGoESGQmh0dHA6Ly9jcmwuY2FtZXJmaXJtYS5jb20vYWNfY2FtZXJmaXJtYV9wZXJ1X2NlcnRpZmljYWRvcy0yMDE2LmNybDBJoEegRYZDaHR0cDovL2NybDEuY2FtZXJmaXJtYS5jb20vYWNfY2FtZXJmaXJtYV9wZXJ1X2NlcnRpZmljYWRvcy0yMDE2LmNybDB7BgNVHREEdDBygRRtZGlhenNhQHN1bmF0LmdvYi5wZaRaMFgxVjBUBgorBgEEAYGHLh4KDEZDRVJUSUZJQ0FETyBERSBTRUxMTyBFTEVDVFJPTklDTyBERSBFTVBSRVNBIFBBUkEgQUdFTlRFUyBBVVRPTUFUSVpBRE9TMBwGA1UdEgQVMBOBEWNhQGNhbWVyZmlybWEuY29tMIGgBgNVHSAEgZgwgZUwgZIGDCsGAQQBgYcuHhAyATCBgTApBggrBgEFBQcCARYdaHR0cHM6Ly9wb2xpY3kuY2FtZXJmaXJtYS5jb20wVAYIKwYBBQUHAgIwSAxGQ0VSVElGSUNBRE8gREUgU0VMTE8gRUxFQ1RST05JQ08gREUgRU1QUkVTQSBQQVJBIEFHRU5URVMgQVVUT01BVElaQURPUzANBgkqhkiG9w0BAQsFAAOCAgEAhwcRvJZBWsYd7x7rOpbJ5glac6L+WYRiUWqdhCGnoVvWKU3c/1BPxjNBWGUMUxxBaXYXs0xOLzylBqdOGXx0ai9Lk4pX1cqE2bClwlyOrxwQfY6aLvHgIKO1qmi3B54GgXpgnquvTnCVer2D+hgEGi4s36CLW92Ip8gz+5UIGUiBvH7yNQ2IVujYLbhZB2HIMidUU8OqMqVsIS4HwTTrZfB+Id9UEh6dUcgXPLkeOOCcExNfWh1Yz+VoMJBZtwSw4iRwDH2qvrujJhx3RZ6z8Ur+EgdYy3LZw+r5mYmeq77QOyWaE1IUob9dFX9DTSrdjjshVvnL1ckYqdetoc5wj2WZto7x4rb95a10hLoXfe4rNb6nDTsTsX2Py2/CE6Y97LHmYw6kiv8QbaShSIjsLVBvRwpdLW2mJBlrnmz5NVCvPpaJQq5MW6yoabvfxCUwxog2qGqjqdjZYsz0REUu4FAYa/Xv0e3soZxERss6gTOP+cIKb2uqYRB/3TrESOvohC/nBWItSWH67iR5FMRwx20SCNC8afoPhhYEgG2K7xVsMY7eWbCny/BCPvzmebPG1Ekr/wYhpbveloawR8R6LwKgmYaP3IDVAQaDQ9uMDxE0oLvKP2ndWZ6EG6sBjTifA/W8JKsY3/Ww/w6a4RvLj+C5wBdm+YXooSGLWZzNPhw=</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent></ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>d934798d-ee1e-420f-ba9f-b4ec591fb137</cbc:ID>
+  <cbc:IssueDate>2023-04-13</cbc:IssueDate>
+  <cbc:IssueTime>23:15:50.62654</cbc:IssueTime>
+  <cbc:ResponseDate>2023-04-13</cbc:ResponseDate>
+  <cbc:ResponseTime>23:15:50.65897</cbc:ResponseTime>
+  <cac:Signature>
+    <cbc:ID>SignSUNAT</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20131312955</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>SUNAT</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#SignSUNAT</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:SenderParty>
+    <cac:PartyIdentification>
+      <cbc:ID>20131312955</cbc:ID>
+    </cac:PartyIdentification>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cac:PartyIdentification>
+      <cbc:ID>20609383438</cbc:ID>
+    </cac:PartyIdentification>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ReferenceID>BI01-3255</cbc:ReferenceID>
+      <cbc:ResponseCode>0</cbc:ResponseCode>
+      <cbc:Description>La Boleta de Venta numero BI01-3255, ha sido aceptado</cbc:Description>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>BI01-3255</cbc:ID>
+    </cac:DocumentReference>
+    <cac:RecipientParty>
+      <cac:PartyIdentification>
+        <cbc:ID>-</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:RecipientParty>
+  </cac:DocumentResponse>
+</ar:ApplicationResponse>
